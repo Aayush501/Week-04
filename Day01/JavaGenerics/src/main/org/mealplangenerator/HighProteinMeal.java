@@ -8,7 +8,7 @@ public class HighProteinMeal implements MealPlan {
     private int caloriesInKcal;
 
     // parameterized constructor to initialize the objects
-    HighProteinMeal(String name, int calories) {
+    public HighProteinMeal(String name, int calories) {
         this.name = name;
         this.caloriesInKcal = calories;
         this.type = "High Protein Meal";

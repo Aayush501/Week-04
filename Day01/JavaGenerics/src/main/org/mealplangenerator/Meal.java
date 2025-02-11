@@ -8,7 +8,7 @@ public class Meal <T extends MealPlan> {
     List<T> meal; // list of objects that extend MealPlan interface
 
     // non-parameterized constructor
-    Meal() {
+    public Meal() {
         meal = new ArrayList<>(); // initializing the list
     }
 
@@ -23,5 +23,10 @@ public class Meal <T extends MealPlan> {
             obj.displayMealPlan();
             System.out.println();
         }
+    }
+
+    // method that returns Meal list
+    public List<T> getMealList() {
+        return meal;
     }
 }

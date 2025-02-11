@@ -8,7 +8,7 @@ public class KetoMeal implements MealPlan{
     private int caloriesInKcal;
 
     // parameterized constructor to initialize the objects
-    KetoMeal(String name, int calories) {
+    public KetoMeal(String name, int calories) {
         this.name = name;
         this.caloriesInKcal = calories;
         this.type = "Keto Meal";

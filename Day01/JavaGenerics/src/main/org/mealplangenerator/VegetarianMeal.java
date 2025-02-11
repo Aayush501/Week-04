@@ -8,7 +8,7 @@ public class VegetarianMeal implements MealPlan{
     private int caloriesInKcal;
 
     // parameterized constructor to initialize the objects
-    VegetarianMeal(String name, int calories) {
+    public VegetarianMeal(String name, int calories) {
         this.name = name;
         this.caloriesInKcal = calories;
         this.type = "Vegetarian Meal";
