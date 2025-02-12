@@ -45,10 +45,10 @@ public class MergeTwoMaps {
 
         // displaying all maps
         System.out.println("\nFirst Map:");
-        map1.forEach((key, value) -> System.out.println(key + " : " + value));
+        System.out.println(map1);
         System.out.println("\nSecond Map:");
-        map2.forEach((key, value) -> System.out.println(key + " : " + value));
+        System.out.println(map2);
         System.out.println("\nMerged Map:");
-        mergedMap.forEach((key, value) -> System.out.println(key + " : " + value));
+        System.out.println(mergedMap);
     }
 }

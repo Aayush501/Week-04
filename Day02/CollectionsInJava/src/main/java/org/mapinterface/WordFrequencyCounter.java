@@ -36,6 +36,6 @@ public class WordFrequencyCounter {
 
         // displaying all the words and their frequency in the file
         System.out.println("Words And Frequency In The File:");
-        wordFrequency.forEach((word, count) -> System.out.println(word + " : " + count));
+        System.out.println(wordFrequency);
     }
 }
