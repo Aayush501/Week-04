@@ -7,9 +7,9 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<Employee> employees = new ArrayList<>();
-        employees.add(new Employee(1, "John", "Engineering", 75000));
-        employees.add(new Employee(2, "Bob", "Marketing", 65000));
-        employees.add(new Employee(3, "Alice", "Sales", 60000));
+        employees.add(new Employee(1, "Person1", "Engineering", 75000));
+        employees.add(new Employee(2, "Person2", "Marketing", 65000));
+        employees.add(new Employee(3, "Person3", "Sales", 60000));
 
         String filename = "employees.ser";
 

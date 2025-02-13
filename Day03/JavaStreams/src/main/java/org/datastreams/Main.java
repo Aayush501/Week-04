@@ -9,11 +9,11 @@ public class Main {
         // Store student details
         try (DataOutputStream dataOutputStream = new DataOutputStream(new FileOutputStream(filename))) {
             dataOutputStream.writeInt(1); // Roll number
-            dataOutputStream.writeUTF("Alice"); // Name
+            dataOutputStream.writeUTF("Person1"); // Name
             dataOutputStream.writeDouble(3.8); // GPA
 
             dataOutputStream.writeInt(2); // Roll number
-            dataOutputStream.writeUTF("Bob"); // Name
+            dataOutputStream.writeUTF("Person2"); // Name
             dataOutputStream.writeDouble(3.6); // GPA
 
             System.out.println("Student details have been written to " + filename);
