@@ -2,7 +2,7 @@ package org.exception;
 
 import java.util.Scanner;
 
-public class ExceptionPropagation {
+public class ThrowVSThrows {
 
     // created a method to calculate the interest
     static double calculateInterest(double amount, double rate, int years) throws IllegalArgumentException { // by throws, exception propagates to the caller
