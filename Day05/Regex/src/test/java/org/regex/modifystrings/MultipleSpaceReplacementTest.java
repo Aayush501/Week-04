@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MultipleSpaceReplacementTest {
     // testing the replaceSpaces method
     @Test
-    public void isValidLicensePlateNumber_ValidTest() {
+    public void replaceSpaces() {
         // performing the tests on multiple testcases
         String test1 = "My   name    is    Aayush" ;
         String test2 = "I am       a     Java developer" ;
