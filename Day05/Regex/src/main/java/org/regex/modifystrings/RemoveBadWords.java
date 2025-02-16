@@ -1,6 +1,7 @@
 package org.regex.modifystrings;
 
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class RemoveBadWords {
     public static void main(String[] args) {
@@ -11,6 +12,7 @@ public class RemoveBadWords {
 
     public static String removeBadWord(String text){
         // replacing all the bad words into ****
-        return text.replaceAll("\\b(stupid|damn)\\b", "****");
+        String regex = "\\b(stupid|damn)\\b";
+        return text.replaceAll(regex, "****");
     }
 }
