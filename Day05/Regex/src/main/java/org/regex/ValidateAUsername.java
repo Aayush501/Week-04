@@ -18,12 +18,17 @@ public class ValidateAUsername {
         String userName = sc.next();
 
         // matching the entered username with the regex
-        Matcher matcher = pattern.matcher(userName);
-        if (matcher.matches()) {
+        if (isValidLicenseUsername(userName, pattern)) {
             System.out.println("Valid Username");
         }
         else {
             System.out.println("Invalid Username" + ((userName.length() > 15)? ", Length Cannot Exceed 15 Characters" : ""));
         }
+    }
+
+    // created a method to validate the username
+    public static boolean isValidLicenseUsername(String name, Pattern pattern) {
+        Matcher matcher = pattern.matcher(name);
+        return matcher.matches();
     }
 }
