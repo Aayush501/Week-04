@@ -16,7 +16,7 @@ class LicensePlateNumberTest {
         String regex = "^[A-Z]{2}[0-9]{4}$";
 
         // compiling the regex pattern
-        Pattern pattern = Pattern.compile(regex);       
+        Pattern pattern = Pattern.compile(regex);
 
         // performing the tests
         assertTrue(LicensePlateNumber.isValidLicensePlateNumber(test, pattern));
