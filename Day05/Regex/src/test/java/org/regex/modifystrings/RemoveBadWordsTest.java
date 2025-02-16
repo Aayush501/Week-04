@@ -15,4 +15,4 @@ class RemoveBadWordsTest {
         // performing tests
         assertEquals("That guy is really ****", RemoveBadWords.removeBadWord(test1));
         assertEquals("That's **** wrong", RemoveBadWords.removeBadWord(test2));
-    }}x
+    }}
