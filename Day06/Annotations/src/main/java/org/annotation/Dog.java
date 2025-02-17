@@ -1,4 +1,4 @@
-package annotation.override;
+package org.annotation;
 
 // Defining the subclass Dog that extends Animal
 public class Dog extends Animal {

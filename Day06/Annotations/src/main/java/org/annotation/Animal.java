@@ -1,4 +1,4 @@
-package annotation.override;
+package org.annotation;
 
 // Defining the parent class Animal
 public class Animal {

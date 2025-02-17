@@ -1,4 +1,4 @@
-package annotation.override;
+package org.annotation;
 
 // Defining the OverrideExample class to test the functionality
 public class OverrideExample {
